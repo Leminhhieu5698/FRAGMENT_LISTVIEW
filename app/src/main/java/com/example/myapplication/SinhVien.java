@@ -1,6 +1,8 @@
 package com.example.myapplication;
 
-public class SinhVien {
+import java.io.Serializable;
+
+public class SinhVien implements Serializable {
     private String HoTen;
     private String Tuoi;
     private String DiaChi;
